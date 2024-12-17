@@ -26,7 +26,7 @@ hi hello this is my website! i made it from scratch using [eleventy](https://11t
 
 **Q: Thanks!** 
 
-**A:** no problem!
+**A:** no problem <3
 
 ## Usage
 
