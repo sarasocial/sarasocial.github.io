@@ -26,4 +26,12 @@ hi hello this is my website! i made it from scratch using [eleventy](https://11t
 
 **Q: Thanks!** 
 
-**A:** no problem
+**A:** no problem!
+
+## Usage
+
+here is how to use my website. type in [sarasoci.al](https://sarasoci.al) into your address bar and hit enter. or click it. the choice is yours. after that congrats you are now on my website
+
+## Changelog
+
+i am too gay to be doing all thhis
