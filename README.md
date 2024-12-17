@@ -30,7 +30,7 @@ hi hello this is my website! i made it from scratch using [eleventy](https://11t
 
 ## Usage
 
-here is how to use my website. type in [sarasoci.al](https://sarasoci.al) into your address bar and hit enter. or click it. the choice is yours. after that congrats you are now on my website
+here is how to use my website. type [sarasoci.al](https://sarasoci.al) into your address bar and hit enter. or click the link. after that congrats you are now on my website
 
 ## Changelog
 
