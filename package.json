@@ -7,7 +7,7 @@
     "build": "npx eleventy --input=src",
     "serve": "npx eleventy --serve --input=src",
 
-    "build-live": "npx eleventy --pathprefix=/sarasoci.al/ --input=src"
+    "build-live": "npx eleventy --input=src"
   },
   "keywords": [],
   "author": "",
