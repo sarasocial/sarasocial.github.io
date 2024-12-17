@@ -4,6 +4,7 @@
   "description": "sara website",
   "main": "index.js",
   "scripts": {
+    "build-live": "npx eleventy --pathprefix=/sarasoci.al/",
     "build": "npx eleventy",
     "serve": "npx eleventy --serve"
   },
