@@ -15,7 +15,7 @@ jobs:
       - name: npm ci & build
         uses: actions/setup-node@v4
       - run: npm ci
-      - run: npm build
+      - run: npm run build
 
       - name: deploy
         uses: peaceiris/actions-gh-pages@v3
