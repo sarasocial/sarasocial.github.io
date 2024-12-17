@@ -34,4 +34,8 @@ here is how to use my website. type in [sarasoci.al](https://sarasoci.al) into y
 
 ## Changelog
 
-i am too gay to be doing all thhis
+**v0.03 (dec. 17)**: i am too gay to be doing all thhis
+
+**v0.02 (dec. 16)**: moved website to eleventy
+
+**v0.01 (dec. 15)**: made the website
