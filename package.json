@@ -1,12 +1,13 @@
 {
   "name": "sarasoci.al",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "sara website",
   "main": "index.js",
   "scripts": {
-    "build-live": "npx eleventy --pathprefix=/sarasoci.al/",
-    "build": "npx eleventy",
-    "serve": "npx eleventy --serve"
+    "build": "npx eleventy --input=src",
+    "serve": "npx eleventy --serve --input=src",
+
+    "build-live": "npx eleventy --pathprefix=/sarasoci.al/ --input=src"
   },
   "keywords": [],
   "author": "",

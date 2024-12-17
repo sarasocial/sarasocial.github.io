@@ -1,7 +1,6 @@
 # gitignore
 node_modules
 CNAME
-README.md
 
 # 11ty output
 _site
