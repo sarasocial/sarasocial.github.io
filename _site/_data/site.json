@@ -1,0 +1,12 @@
+{
+    "name": "sara's place",
+    "url": "https://sarasoci.al",
+    "description": "a website made by sara",
+    "links": {
+        "home": "https://sarasoci.al",
+        "github": "https://github.com/sarasocial",
+        "bsky": "https://bsky.app/profile/sarasoci.al",
+        "hexbear": "https://hexbear.net/u/sara",
+        "matrix": ""
+    }
+}

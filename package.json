@@ -4,10 +4,10 @@
   "description": "sara website",
   "main": "index.js",
   "scripts": {
-    "build": "npx eleventy --input=src",
-    "serve": "npx eleventy --serve --input=src",
-
-    "build-live": "npx eleventy --input=src"
+    "prebuild": "rm -rf _dist",
+    "build": "npx eleventy --input=_site --output=_dist",
+    "serve": "npx eleventy --serve --input=_site --output=_dist",
+    "build-live": "npx eleventy --input=_site --output=_dist"
   },
   "keywords": [],
   "author": "",

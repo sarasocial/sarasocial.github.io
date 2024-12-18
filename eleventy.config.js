@@ -1,0 +1,56 @@
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+
+export default function(eleventyConfig) {
+    eleventyConfig.setServerOptions({
+		// Whether the live reload snippet is used
+		liveReload: true,
+
+		// Whether DOM diffing updates are applied where possible instead of page reloads
+		domDiff: true,
+
+		// The starting port number
+		port: 8080,
+
+		// Additional files to watch that will trigger server updates
+		// Accepts an Array of file paths or globs (passed to `chokidar.watch`).
+		// Works great with a separate bundler writing files to your output folder.
+		// e.g. `watch: ["_site/**/*.css"]`
+		watch: ["_resources/assets/", "_resources/css/"],
+
+		// Show local network IP addresses for device testing
+		showAllHosts: false,
+
+		// Use a local key/certificate to opt-in to local HTTP/2 with https
+		https: {},
+
+		// Change the default file encoding for reading/serving files
+		encoding: "utf-8",
+
+		// Show the dev server version number on the command line
+		showVersion: false,
+
+		// The default file name to show when a directory is requested.
+		indexFileName: "index.html",
+
+		// An object mapping a URLPattern pathname to a callback function
+		// for on-request processing
+		onRequest: {},
+	});
+
+    eleventyConfig.setTemplateFormats("html,liquid,njk,md");
+    eleventyConfig.setLayoutResolution(false);
+
+    eleventyConfig.setInputDirectory("_site");
+    eleventyConfig.setOutputDirectory("_dist");
+
+    eleventyConfig.setDataDirectory("_data");
+    eleventyConfig.setIncludesDirectory("_includes");
+    eleventyConfig.setLayoutsDirectory("_includes/layouts");
+
+    eleventyConfig.addPassthroughCopy({"./_resources/assets": "./assets"});
+    eleventyConfig.addPassthroughCopy({"./_resources/css": "./css"});
+
+    eleventyConfig.addWatchTarget("./_resources/**/*.(png|jpg|ico|svg|css|html|njk|md|webmanifest)", {
+        resetConfig: true
+    });
+};

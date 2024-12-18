@@ -1,1 +1,0 @@
-import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
