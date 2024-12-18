@@ -29,6 +29,6 @@ at *some point* i'd like to host various writings and projects here. i'm very in
 
 ## where else are you?
 
-speaking of links right now you can find me on [github](https://github.com/sarasocial), [hexbear](https://hexbear.net/u/sara), and discord if we're friendly. at some point soon (once i get off my ass and set up pds stuff), [this link](https://bsky.app/profile/sarasoci.al) will take you to a bsky profile.
+speaking of links right now you can find me on [github](https://github.com/sarasocial), [hexbear](https://hexbear.net/u/sara), and discord if we're friendly. at some point soon (once i get off my ass and set up pds), [this link](https://bsky.app/profile/sarasoci.al) will take you to a bsky profile.
 
 i'll put some more up later lol
