@@ -1,6 +1,5 @@
 # gitignore
 node_modules
-CNAME
 
 # 11ty output
 _dist
