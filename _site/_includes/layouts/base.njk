@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>{{ title if title else site.name }}</title>
+        <title>{{ title + " | " + site.name if title else site.name }}</title>
 
         <meta name="description" content="{{ description if description else site.description }}"/>
 
@@ -17,7 +17,9 @@
         <link rel="manifest" href="assets/favicon/site.webmanifest"/>
     </head>
     <body>
-        <h1>{{ title if title else site.name }}</h1>
-        {% block content %}{% endblock %}
+        <div class="main">
+            <h1>{{ header if header else site.name }}</h1>
+            {% block content %}{% endblock %}
+        </div>
     </body>
 </html>

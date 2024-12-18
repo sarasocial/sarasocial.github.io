@@ -1,0 +1,33 @@
+:root {
+    /** Surface colors */
+    --surface-0: #131313;
+    --surface-1: #282828;
+    --surface-2: #3f3f3f;
+    --surface-3: #585858;
+    --surface-4: #717171;
+    --surface-5: #8c8c8c;
+
+    /** Primary colors */
+    --primary-0: #c061cb;
+    --primary-1: #c873d1;
+    --primary-2: #d085d7;
+    --primary-3: #d797dd;
+    --primary-4: #dfa8e3;
+    --primary-5: #e6bae8;
+
+    /** Accent colors */
+    --accent-0: #221b23;
+    --accent-1: #373038;
+    --accent-2: #4d464d;
+    --accent-3: #645e64;
+    --accent-4: #7c777c;
+    --accent-5: #949095;
+
+    /** Other colors */
+    --white: #ffffff;
+    --accent-1: #373038;
+    --accent-2: #4d464d;
+    --accent-3: #645e64;
+    --accent-4: #7c777c;
+    --accent-5: #949095;
+}

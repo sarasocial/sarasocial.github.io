@@ -50,7 +50,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"./_resources/assets": "./assets"});
     eleventyConfig.addPassthroughCopy({"./_resources/css": "./css"});
 
-    eleventyConfig.addWatchTarget("./_resources/**/*.(png|jpg|ico|svg|css|html|njk|md|webmanifest)", {
+    eleventyConfig.addWatchTarget("./_resources/**/*.(png|jpg|ico|svg|css|html|njk|md|json|js|cjs|txt|webmanifest)", {
         resetConfig: true
     });
 };
