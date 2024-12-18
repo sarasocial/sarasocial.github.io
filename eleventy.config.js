@@ -38,7 +38,7 @@ export default function(eleventyConfig) {
 	});
 
     eleventyConfig.setTemplateFormats("html,liquid,njk,md");
-    eleventyConfig.setLayoutResolution(false);
+    eleventyConfig.setLayoutResolution(true);
 
     eleventyConfig.setInputDirectory("_site");
     eleventyConfig.setOutputDirectory("_dist");
