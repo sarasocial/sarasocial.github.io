@@ -30,4 +30,4 @@ keeping it so real though right now this site is a glorified linktree. and there
 
 ~~speaking of links right now you can find me on...~~ THEY'RE IN THE FOOTER NOW!!!! i made a footer, my links are there :)
 
-i'll add more links over time. need to set up a bsky pds and also get a matrix lol
+i'll add more links over time. need to set up a pds for bsky and also get a matrix lol
