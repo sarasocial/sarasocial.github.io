@@ -1,6 +1,7 @@
 ---
-header: 'hello, world :)'
-layout: 'default.njk'
+header: "sara's place"
+layout: "default.njk"
+permalink: "/"
 ---
 
 ---
@@ -13,22 +14,20 @@ layout: 'default.njk'
 - should **not** be online. please tell her to log off!
 - gayyyyy
 
-and that's about it!
-
 ## what is this?
 
-my website! she's nothing special, but she gets the job done and i made her myself in [eleventy](https://11ty.dev). there isn't much to see but you can take a gander at the repo [here](https://github.com/sarasocial/sarasocial.github.io) if you'd like :)
+my website! she's nothing special and a work in progress, but she gets the job done and i like her. i made her myself in [eleventy](https://11ty.dev). there isn't much to see, but if you're interested you can take a gander at the [repo](https://github.com/sarasocial/sarasocial.github.io) :)
 
-at some point i'll add more cool things. like maybe some [88x31](https://cyber.dabamos.de/88x31/) buttons that take you to dead links or something. that sounds cool
+this page is very temporary btw. i'll be making it better when i can *(ps sorry the font and theming are kinda ugly right now lol)*
 
-## why does this exist
+## why does this exist?
 
-at *some point* i'd like to host various writings and projects here. i'm very into the idea of [digital gardens](https://maggieappleton.com/garden-history), although the common definition is a bit restrictive. ideally, this space would be some sort of cross between a blog, a gallery, and that.
+my goal for this site is to build a **digital garden** that houses things that i create, and leads to things that i enjoy. right now, there's neither content nor a content management system. but i'm working on it!
 
-*however!* for now this site is a glorified linktree. with two links. fuck you
+*however!* for now, there's nothing. and keeping it totally real this site is a glorified linktree with two links. fuck you
 
 ## where else are you?
 
-speaking of links right now you can find me on [github](https://github.com/sarasocial), [hexbear](https://hexbear.net/u/sara), and discord if we're friendly. at some point soon (once i get off my ass and set up pds), [this link](https://bsky.app/profile/sarasoci.al) will take you to a bsky profile.
+~~speaking of links right now you can find me on...~~ THEY'RE IN THE FOOTER NOW!!!! i made a footer, my links are there :)
 
-i'll put some more up later lol
+i'll add more links over time. need to set up a bsky pds and also get a matrix lol

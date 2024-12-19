@@ -1,0 +1,41 @@
+footer {
+    text-align: center;
+}
+
+.footer-buttons {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.footer-buttons img {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.footer-socials {
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.footer-buttons a, .footer-buttons img {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.footer-buttons a::before, .footer-buttons img::before {
+    background-color: var(--surface-0);
+}
+.footer-buttons a:hover::before, .footer-buttons img:hover::before {
+    background-color: var(--surface-0);
+}
+
+.footer-socials a {
+    color: var(--primary-1);
+}
+.footer-socials a::before {
+    background-color: var(--surface-0);
+}
+.footer-socials a:hover::before {
+    background-color: var(--primary-2);
+}
+.footer-socials a:hover {
+    color: white;
+}

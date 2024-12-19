@@ -1,12 +1,18 @@
 {
     "name": "sara's place",
     "url": "https://sarasoci.al",
-    "description": "a website made by sara",
-    "links": {
-        "home": "https://sarasoci.al",
+    "description": "made by sara with love",
+    "socials": {
         "github": "https://github.com/sarasocial",
         "bsky": "https://bsky.app/profile/sarasoci.al",
-        "hexbear": "https://hexbear.net/u/sara",
-        "matrix": ""
+        "hexbear": "https://hexbear.net/u/sara"
+    },
+    "links": {
+        "archlinux": "https://archlinux.org/",
+        "bearblog": "https://bearblog.dev/",
+        "11ty": "https://www.11ty.dev/",
+        "noweb3": "https://yesterweb.org/no-to-web3/",
+        "acab": "https://acabexplained.carrd.co/",
+        "diyhrt": "https://diyhrt.info/"
     }
 }
