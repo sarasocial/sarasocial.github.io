@@ -22,9 +22,9 @@ this page is very temporary btw. i'll be making it better when i can *(ps sorry 
 
 ## why does this exist?
 
-my goal for this site is to build a [digital garden](https://maggieappleton.com/garden-history) that houses things that i create, and leads to things that i enjoy. right now, though, there's neither content nor a content management system. but i'm working on it!
+my goal for this site is to build a [digital garden](https://maggieappleton.com/garden-history) that houses things that i create, and leads to things that i enjoy. there's neither content nor a content management system yet. but i'm working on it!
 
-keeping it so real though right now this site is a glorified linktree with two links. fuck you
+keeping it so real though right now this site is a glorified linktree. and there's only like two links. fuck you
 
 ## where else are you?
 
