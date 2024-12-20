@@ -22,7 +22,7 @@ this page is very temporary btw. i'll be making it better when i can *(ps sorry 
 
 ## why does this exist?
 
-my goal for this site is to build a [digital garden](https://maggieappleton.com/garden-history) that houses things that i create, and leads to things that i enjoy. there's neither content nor a content management system yet. but i'm working on it!
+my goal for this site is to build a [digital garden](https://maggieappleton.com/garden-history) that houses things that i create, and leads to things that i enjoy. there's neither content nor a content management system yet. but i'm working on it! [(🌱 update!)](/botany-idea/)
 
 ## where else are you?
 

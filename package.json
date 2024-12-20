@@ -15,5 +15,13 @@
   "type": "module",
   "dependencies": {
     "@11ty/eleventy": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarasocial/sarasocial.github.io.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarasocial/sarasocial.github.io/issues"
+  },
+  "homepage": "https://github.com/sarasocial/sarasocial.github.io#readme"
 }
