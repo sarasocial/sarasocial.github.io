@@ -5,13 +5,10 @@
   "main": "index.js",
   "scripts": {
     "prebuild": "rm -rf _dist && rm -rf '_resources/css'",
-
     "build:cunt": "npx eleventy --input=_site --output=_dist",
     "serve:cunt": "npx eleventy --serve --input=_site --output=_dist",
-
     "build:sass": "npx sass _resources/scss:_dist/css",
     "serve:sass": "npx sass _resources/scss:_dist/css --watch",
-
     "build": "npm run prebuild && npm-run-all build:*",
     "serve": "npm run prebuild && npm-run-all build:sass --parallel serve:*"
   },

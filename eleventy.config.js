@@ -51,7 +51,7 @@ export default function(eleventyConfig) {
     eleventyConfig.setIncludesDirectory("_includes");
     eleventyConfig.setLayoutsDirectory("_includes/layouts");
 
-    eleventyConfig.addPassthroughCopy({"./_resources/CNAME": "./CNAME"});
+    eleventyConfig.addPassthroughCopy({"./CNAME": "./CNAME"});
     eleventyConfig.addPassthroughCopy({"./_resources/assets": "./assets"});
 
     eleventyConfig.addWatchTarget("./_resources/**/*.(png|jpg|ico|svg|css|scss|html|njk|md|json|js|cjs|txt|webmanifest|scss)", {
