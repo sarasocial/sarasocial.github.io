@@ -9,7 +9,7 @@ permalink: '/botany-idea/'
 
 ### there's a lot of ways to cook eggs
 
-one thought that i've been toying with over the past few days is how one tends to digital garden, and furthermore, how *i* want to tend to my own digital garden. i'm into the idea of creating an eleventy plugin to help accomplish this, and *if* i were to do that, i'd want to release it publicly.
+one thought that i've been toying with over the past few days is how one tends to a digital garden, and furthermore, how *i* want to tend to my own digital garden. i'm into the idea of creating an eleventy plugin to help accomplish this, and *if* i were to do that, i'd want to release it publicly.
 
 **this thought has been a big can of worms!**
 

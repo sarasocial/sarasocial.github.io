@@ -36,8 +36,12 @@ export default function(eleventyConfig) {
 		// for on-request processing
 		onRequest: {},
 	});
+	
+	eleventyConfig.setBrowserSyncConfig({
+		files: './_dist/css/**/*.css'
+	});
 
-    eleventyConfig.setTemplateFormats("html,liquid,njk,md");
+    eleventyConfig.setTemplateFormats("html,liquid,njk,md,11ty.js");
     eleventyConfig.setLayoutResolution(true);
 
     eleventyConfig.setInputDirectory("_site");
@@ -49,9 +53,8 @@ export default function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy({"./_resources/CNAME": "./CNAME"});
     eleventyConfig.addPassthroughCopy({"./_resources/assets": "./assets"});
-    eleventyConfig.addPassthroughCopy({"./_resources/css": "./css"});
 
-    eleventyConfig.addWatchTarget("./_resources/**/*.(png|jpg|ico|svg|css|html|njk|md|json|js|cjs|txt|webmanifest)", {
+    eleventyConfig.addWatchTarget("./_resources/**/*.(png|jpg|ico|svg|css|scss|html|njk|md|json|js|cjs|txt|webmanifest|scss)", {
         resetConfig: true
     });
 };

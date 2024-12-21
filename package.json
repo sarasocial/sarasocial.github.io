@@ -4,18 +4,21 @@
   "description": "sara website",
   "main": "index.js",
   "scripts": {
-    "prebuild": "rm -rf _dist",
-    "build": "npx eleventy --input=_site --output=_dist",
-    "serve": "npx eleventy --serve --input=_site --output=_dist",
-    "build-live": "npx eleventy --input=_site --output=_dist"
+    "prebuild": "rm -rf _dist && rm -rf '_resources/css'",
+
+    "build:cunt": "npx eleventy --input=_site --output=_dist",
+    "serve:cunt": "npx eleventy --serve --input=_site --output=_dist",
+
+    "build:sass": "npx sass _resources/scss:_dist/css",
+    "serve:sass": "npx sass _resources/scss:_dist/css --watch",
+
+    "build": "npm run prebuild && npm-run-all build:*",
+    "serve": "npm run prebuild && npm-run-all build:sass --parallel serve:*"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
-  "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sarasocial/sarasocial.github.io.git"
@@ -23,5 +26,10 @@
   "bugs": {
     "url": "https://github.com/sarasocial/sarasocial.github.io/issues"
   },
-  "homepage": "https://github.com/sarasocial/sarasocial.github.io#readme"
+  "homepage": "https://github.com/sarasocial/sarasocial.github.io#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.83.0"
+  }
 }

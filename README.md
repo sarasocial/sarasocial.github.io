@@ -2,40 +2,33 @@
 
 hi hello this is my website! i made it from scratch using [eleventy](https://11ty.dev)  and my brain! it's not terribly fancy but i think it's cool, you can check it out at [sarasoci.al](https://sarasoci.al) if you'd like :)
 
-## FAQ
+## how it works
 
-**Q: Why?** 
+### setup
 
-**A:** i want a website
+```
+git clone https://github.com/sarasocial/sarasocial.github.io sara-website
+cd sara-website
+npm init -y && npm pkg set type="module"
+npm i @11ty/eleventy sass npm-run-all --save-dev
+```
 
-**Q: How?** 
+### usage
 
-**A:** [eleventy](https://11ty.dev)
+```
+# to build:
+npm run build
 
-**Q: Where?** 
+# to serve:
+npm run serve
+```
 
-**A:** [here](https://sarasoci.al)
+## changelog
 
-**Q: What?** 
+**v0.04 (21 dec. '24)**: added   sass 💅  & add ed [changelog](/Updates.md)
 
-**A:** a [website](https://en.wikipedia.org/wiki/Website) .. ?
+**v0.03 (17 dec. '24)**: i am too gay to be doing all thhis
 
-**Q: Who?** 
+**v0.02 (16 dec. '24)**: moved website to eleventy
 
-**A:** [sara](https://github.com/sarasocial)!
-
-**Q: Thanks!** 
-
-**A:** no problem <3
-
-## Usage
-
-here is how to use my website. type [sarasoci.al](https://sarasoci.al) into your address bar and hit enter. or click the link. after that congrats you are now on my website
-
-## Changelog
-
-**v0.03 (dec. 17)**: i am too gay to be doing all thhis
-
-**v0.02 (dec. 16)**: moved website to eleventy
-
-**v0.01 (dec. 15)**: made the website
+**v0.01 (15 dec. '24)**: made the webb site
