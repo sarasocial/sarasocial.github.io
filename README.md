@@ -1,6 +1,6 @@
 ## sara website
 
-hi hello this is my website! i made it from scratch using [eleventy](https://11ty.dev)  and my brain! it's not terribly fancy but i think it's cool, you can check it out at [sarasoci.al](https://sarasoci.al) if you'd like :)
+hi hello this is my website i made using [eleventy](https://11ty.dev)! it's not terribly fancy but i think it's cool, you can check it out at [sarasoci.al](https://sarasoci.al) if you'd like :)
 
 ## how it works
 
