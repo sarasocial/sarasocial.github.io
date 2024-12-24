@@ -1,0 +1,301 @@
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Bold.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Bold.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Bold.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Bold.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Bold.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Bold.svg#JetBrainsMono-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-BoldItalic.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-BoldItalic.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-BoldItalic.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-BoldItalic.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-BoldItalic.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-BoldItalic.svg#JetBrainsMono-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBold.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBold.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBold.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBold.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBold.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBold.svg#JetBrainsMono-ExtraBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBoldItalic.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBoldItalic.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBoldItalic.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBoldItalic.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraBoldItalic.svg#JetBrainsMono-ExtraBoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLight.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLight.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLight.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLight.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLight.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLight.svg#JetBrainsMono-ExtraLight") format("svg");
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLightItalic.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLightItalic.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLightItalic.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLightItalic.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLightItalic.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ExtraLightItalic.svg#JetBrainsMono-ExtraLightItalic") format("svg");
+  font-weight: 200;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Italic.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Italic.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Italic.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Italic.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Italic.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Italic.svg#JetBrainsMono-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Light.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Light.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Light.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Light.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Light.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Light.svg#JetBrainsMono-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-LightItalic.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-LightItalic.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-LightItalic.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-LightItalic.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-LightItalic.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-LightItalic.svg#JetBrainsMono-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Medium.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Medium.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Medium.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Medium.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Medium.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Medium.svg#JetBrainsMono-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Regular.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Regular.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Regular.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Regular.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Regular.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Regular.svg#JetBrainsMono-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-MediumItalic.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-MediumItalic.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-MediumItalic.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-MediumItalic.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-MediumItalic.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-MediumItalic.svg#JetBrainsMono-MediumItalic") format("svg");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Thin.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Thin.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Thin.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Thin.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Thin.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-Thin.svg#JetBrainsMono-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBoldItalic.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBoldItalic.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBoldItalic.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBoldItalic.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBoldItalic.svg#JetBrainsMono-SemiBoldItalic") format("svg");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBold.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBold.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBold.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBold.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBold.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-SemiBold.svg#JetBrainsMono-SemiBold") format("svg");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono";
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ThinItalic.eot");
+  src: url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ThinItalic.eot?#iefix") format("embedded-opentype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ThinItalic.woff2") format("woff2"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ThinItalic.woff") format("woff"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ThinItalic.ttf") format("truetype"), url("/_assets/fonts/JetBrainsMono/JetBrainsMono-ThinItalic.svg#JetBrainsMono-ThinItalic") format("svg");
+  font-weight: 100;
+  font-style: italic;
+  font-display: swap;
+}
+html * {
+  font-family: "JetBrains Mono";
+  color: #11111b;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  font-size: 100%;
+}
+
+body {
+  background-color: #181825;
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  height: 100vh;
+  width: 100vw;
+  margin: 0; /* Removes default margin */
+  background-image: url("/_assets/images/start/backgrounds/background1.png");
+}
+
+.terminal {
+  transition: all 0.2s ease-in-out;
+  opacity: 0.9;
+  border-radius: 0.5rem;
+  border-color: #b4befe;
+  border-width: 2px;
+  border-style: solid;
+  background-color: #1e1e2e;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.367);
+  width: fit-content;
+  height: fit-content;
+}
+
+.terminal:hover {
+  opacity: 1;
+}
+
+.bookmarksPanel {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.367);
+  width: fit-content;
+  height: fit-content;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.bookmarkTab {
+  display: inline-box;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+.bookmarkTab .bookmarkList {
+  display: flex;
+}
+.bookmarkTab h2 {
+  transition: all 0.2s ease-in-out;
+  color: #7f849c;
+  opacity: 1;
+  font-size: small;
+}
+
+.bookmarkTab:hover h2 {
+  color: #f5c2e7;
+}
+
+.bookmark * {
+  display: flex;
+}
+
+.bookmark * {
+  transition: all 0.2s ease-in-out;
+}
+
+.bookmark {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.367);
+  background-color: #313244;
+  border-radius: 0.25rem;
+  display: flex;
+  height: 1.8rem;
+  width: fit-content;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1rem;
+}
+.bookmark .line {
+  width: 0.15rem;
+  height: 100%;
+  background-color: #b4befe;
+}
+.bookmark a {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  height: 100%;
+  line-height: 100%;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  width: fit-content;
+  text-align: left;
+  text-decoration: none;
+  color: #cdd6f4;
+  font-weight: bold;
+  bottom: 0px;
+}
+
+.bookmark:hover a {
+  color: #f5c2e7;
+}
+.bookmark:hover .line {
+  background-color: #f5c2e7;
+}
+
+h1, h2, h3 {
+  text-transform: uppercase;
+}
+
+a {
+  text-transform: lowercase;
+}
+
+.terminal-display {
+  box-shadow: 0px -0.25rem 0.25rem rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  background-color: #313244;
+  display: flex;
+  height: 2rem;
+  width: 100%;
+  border-bottom-left-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  line-height: 100%;
+}
+.terminal-display .spacer {
+  width: 0.75rem;
+  height: 2rem;
+  opacity: 0;
+}
+.terminal-display .content {
+  box-shadow: 0.375rem 0px 0px rgba(0, 0, 0, 0.075);
+  height: 2rem;
+  line-height: 100%;
+  background-color: #45475a;
+  display: flex;
+  width: fit-content;
+  border-bottom-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+}
+.terminal-display .content .user {
+  color: #f5c2e7;
+}
+.terminal-display .content .at {
+  color: #f5e0dc;
+}
+.terminal-display .content .host {
+  color: #b4befe;
+}
+.terminal-display .content .user, .terminal-display .content .at, .terminal-display .content .host {
+  padding-top: 0.4rem;
+  height: 1rem;
+  width: fit-content;
+  text-align: left;
+  font-weight: bold;
+}
+.terminal-display input {
+  color: #cdd6f4;
+  background-color: rgba(0, 0, 0, 0);
+  outline: none;
+  height: 2rem;
+  line-height: 100%;
+  width: fit-content;
+}
+
+/*# sourceMappingURL=startpage.css.map */
