@@ -1,0 +1,49 @@
+@use "../../palettes/mocha" as *;
+$color-main: $pink;
+$color-sub: $lavender;
+$color-user: $lavender;
+$color-at: $rosewater;
+$color-host: $pink;
+
+$displayHeight: 2rem;
+.terminal-display {
+    box-shadow: 0px -0.25rem 0.25rem rgba(0,0,0,0.1);
+    font-family: inherit;
+    background-color: $bg3;
+    display: flex;
+    height:$displayHeight;
+    width: 100%;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    line-height: 100%;
+    .spacer { width: 0.75rem; height: $displayHeight; opacity: 0; };
+    .content {
+        box-shadow: 0.375rem 0px 0px rgba(0,0,0,0.075);
+        height: $displayHeight;
+        line-height: 100%;
+        background-color: $bg4;
+        display: flex;
+        width: fit-content;
+        border-bottom-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        .user { color: $color-user; };
+        .at { color: $color-at; };
+        .host { color: $color-host; };
+        .user, .at, .host {
+            padding-top: calc(($displayHeight - 1rem) / 2 - 0.1rem);
+            height: 1rem;
+            width: fit-content;
+            text-align: left;
+            font-weight: bold;
+        };
+    };
+    input {
+        color: $text;
+        background-color: rgba(0,0,0,0);
+        outline: none;
+        height:$displayHeight;
+        line-height: 100%;
+        width: fit-content;
+    };
+};

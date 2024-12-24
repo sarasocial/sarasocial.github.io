@@ -1,0 +1,12 @@
+{% extends "layouts/bases/.startpage.njk" %} 
+{% import "components/startpage/bookmarks.njk" as bookmarks %}
+{% block startpage %}
+<div class="terminal">
+    <div class="bookmarksPanel">
+        {% for tabName, bookmarkList in bookmarkTabs %}
+            {{ bookmarks.newTab(tabName, bookmarkList) }}
+        {% endfor %}
+    </div>
+    {% include "components/startpage/terminal-display.njk" %}
+</div>
+{% endblock %}

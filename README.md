@@ -6,12 +6,16 @@ hi hello this is my website! i made it from scratch using [eleventy](https://11t
 
 ### setup
 
+if you want to run this site on your local machine and play around with it, do:
+
 ```
 git clone https://github.com/sarasocial/sarasocial.github.io sara-website
 cd sara-website
 npm init -y && npm pkg set type="module"
 npm i @11ty/eleventy sass npm-run-all --save-dev
 ```
+
+if you want to build off of it and put it on github pages, first see license below fork the repo and 
 
 ### usage
 

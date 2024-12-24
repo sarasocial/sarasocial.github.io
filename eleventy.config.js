@@ -15,7 +15,7 @@ export default function(eleventyConfig) {
 		// Accepts an Array of file paths or globs (passed to `chokidar.watch`).
 		// Works great with a separate bundler writing files to your output folder.
 		// e.g. `watch: ["_site/**/*.css"]`
-		watch: ["_resources/assets/", "_resources/css/"],
+		watch: ["./_resources/assets/", "./_resources/scss/", "./_resources/css", "./_resources/javascript"],
 
 		// Show local network IP addresses for device testing
 		showAllHosts: false,
@@ -38,7 +38,7 @@ export default function(eleventyConfig) {
 	});
 	
 	eleventyConfig.setBrowserSyncConfig({
-		files: './_dist/css/**/*.css'
+		files: './_dist/_css/**/*.css'
 	});
 
     eleventyConfig.setTemplateFormats("html,liquid,njk,md,11ty.js");
@@ -52,7 +52,8 @@ export default function(eleventyConfig) {
     eleventyConfig.setLayoutsDirectory("_includes/layouts");
 
     eleventyConfig.addPassthroughCopy({"./CNAME": "./CNAME"});
-    eleventyConfig.addPassthroughCopy({"./_resources/assets": "./assets"});
+    eleventyConfig.addPassthroughCopy({"./_resources/assets": "./_assets"});
+    eleventyConfig.addPassthroughCopy({"./_resources/javascript": "./_javascript"});
 
     eleventyConfig.addWatchTarget("./_resources/**/*.(png|jpg|ico|svg|css|scss|html|njk|md|json|js|cjs|txt|webmanifest|scss)", {
         resetConfig: true

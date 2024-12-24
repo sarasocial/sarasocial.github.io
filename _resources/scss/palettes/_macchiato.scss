@@ -1,0 +1,45 @@
+@use "catppuccin/macchiato" as palette;
+
+// Background Colors
+$bg0: palette.$crust;
+$bg1: palette.$mantle;
+$bg2: palette.$base;
+$bg3: palette.$surface0;
+$bg4: palette.$surface1;
+$bg5: palette.$surface2;
+
+// Text Colors
+$text: palette.$text;
+$offtext: palette.$subtext1;
+$subdued: palette.$overlay1;
+$link: palette.$blue;
+$success: palette.$green;
+$warning: palette.$yellow;
+$error: palette.$red;
+
+// Colors - Numbered
+$color0: palette.$surface1;
+$color1: palette.$flamingo;
+$color2: palette.$mauve;
+$color3: palette.$maroon;
+$color4: palette.$yellow;
+$color5: palette.$teal;
+$color6: palette.$sapphire;
+$color7: palette.$lavender;
+$color8: palette.$subtext0;
+
+// Colors - Named
+$rosewater: palette.$rosewater;
+$flamingo: palette.$flamingo;
+$pink: palette.$pink;
+$mauve: palette.$mauve;
+$red: palette.$red;
+$maroon: palette.$maroon;
+$peach: palette.$peach;
+$yellow: palette.$yellow;
+$green: palette.$green;
+$teal: palette.$teal;
+$sky: palette.$sky;
+$sapphire: palette.$sapphire;
+$blue: palette.$blue;
+$lavender: palette.$lavender;

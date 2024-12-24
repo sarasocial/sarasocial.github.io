@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>{{ title + " | " + site.name if title else site.name }}</title>
+
+        <meta name="description" content="{{ description if description else site.description }}"/>
+
+        <link rel="stylesheet" href="/_css/styles/main.css">
+
+        <link rel="icon" type="image/png" href="/_assets/favicons/default/favicon-96x96.png" sizes="96x96"/>
+        <link rel="icon" type="image/svg+xml" href="/_assets/favicons/default/favicon.svg"/>
+        <link rel="shortcut icon" href="/_assets/favicons/default/favicon.ico"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/_assets/favicons/default/apple-touch-icon.png"/>
+        <link rel="manifest" href="/_assets/favicons/default/site.webmanifest"/>
+    </head>
+    <body>
+        <div class="main">
+            <h1>{{ header if header else site.name }}</h1>
+            {% block content %}{% endblock %}
+        </div>
+        {% include "components/footer.njk" %}
+    </body>
+</html>

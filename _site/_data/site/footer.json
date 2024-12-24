@@ -1,0 +1,35 @@
+{
+    "images": "/_assets/88x31",
+    "socials": [
+        { "name": "website", "url": "/", "stayInTab": true },
+        { "name": "github", "url": "https://github.com/sarasocial" },
+        { "name": "bsky", "url": "https://bsky.app/profile/sarasoci.al" },
+        { "name": "hexbear", "url": "https://hexbear.net/u/sara" }
+    ],
+    "badges": [
+            {   "img": "archlinux.gif",
+                "url": "https://archlinux.org",
+                "alt": "archlinux."
+            },
+            {
+                "img": "11ty.png",
+                "url": "https://11ty.dev",
+                "alt": "made with love and eleventy."
+            },
+            {
+                "img": "saynotoweb3.gif",
+                "url": "https://yesterweb.org/no-to-web3/",
+                "alt": "say no to web3, keep the web free."
+            },
+            {
+                "img": "acab.gif",
+                "url": "https://acabexplained.carrd.co/",
+                "alt": "flashing letters 'ACAB'. all cops are bastards."
+            },
+            {
+                "img": "estrogen.gif",
+                "url": "https://diyhrt.info",
+                "alt": "an estrogen bottle spins in circles, captioned 'powered by estrogen.'"
+            }
+    ]
+}

@@ -1,0 +1,29 @@
+<footer>
+    <hr>
+    <div class = "footer-buttons">
+        {% for badge in site.footer.badges %}
+            {% if badge.url %}
+                <a href = {{ badge.url }} target = "_blank">
+            {% else %}
+                <a href ="">
+            {% endif %}
+            {% if badge.alt and not badge.alt == " " %}
+                <img src="{{ site.footer.images + '/' + badge.img }}" width="88" height="31" alt="{{ badge.alt }}">
+            {% else %}
+                <img src="{{ site.footer.images + '/' + badge.img }}" width="88" height="31" alt"">
+            {% endif %}
+            </a>
+        {% endfor %}
+    </div>
+    <div class="footer-socials">
+        {% for social in site.footer.socials %}
+            {% if social.name and social.url %}
+                {% if social.stayInTab %}
+                    <a href={{ social.url }}>{{ social.name }}</a>
+                {% else %}
+                    <a href={{ social.url }} target="_blank">{{ social.name }}</a>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</footer>

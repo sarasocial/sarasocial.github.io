@@ -1,0 +1,12 @@
+<div class="terminal-display">
+    <div class="content">
+        <div class="spacer"></div>
+        <p class="user">{{ username if username else "user" }}</p>
+        <p class="at">@</p>
+        <p class="host">{{ hostname if hostname else "internet"}}</p>
+        <div class="spacer"></div>
+    </div>
+    <div class="spacer"></div>
+    {% include "components/startpage/terminal-input.njk" %}
+    <script src="/_javascript/terminal-input.js"></script>
+</div>

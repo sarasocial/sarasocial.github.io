@@ -1,0 +1,17 @@
+{% macro newTab(tabName, bookmarkList) %}
+{% if tabName and bookmarkList and not tabName == "" and not bookmarkList == [] %}
+<div class="bookmarkTab">
+    <h2>{{ tabName }}</h2>
+    <div class="bookmarkList">
+        {% for name, url in bookmarkList %}
+            {% if name and url and not (name == "" or url == "" or name == " " or url == " ") %}
+                <div class="bookmark">
+                    <div class="line"></div>
+                    <a href="{{ url }}">{{ name }}</a>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
+{% endmacro %}

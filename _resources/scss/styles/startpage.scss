@@ -1,0 +1,172 @@
+@use '../palettes/mocha' as *;
+@use '../components/font-faces/JetBrainsMono';
+$color-main: $lavender;
+$color-mid: $rosewater;
+$color-sub: $pink;
+$transition: all .2s ease-in-out;
+
+$font-body: 'JetBrains Mono';
+$shadow-default: 0px 0px 20px rgba(0, 0, 0, 0.367);
+
+$p: 1vh;
+@media (orientation: portrait) { $p: 1vw }
+
+html * {
+    font-family: $font-body;
+    color: $bg0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 100%;
+}
+
+body {
+    background-color: $bg1;
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center;     /* Centers content vertically */
+    height: 100vh;
+    width: 100vw;
+    margin: 0;               /* Removes default margin */
+    background-image: url("/_assets/images/start/backgrounds/background1.png");
+}
+
+.terminal {
+    transition: $transition;
+    opacity: 0.9;
+    border-radius: 0.5rem;
+    border-color: $color-main;
+    border-width: 2px;
+    border-style: solid;
+    background-color: $bg2;
+    box-shadow: $shadow-default;
+    width: fit-content;
+    height: fit-content;
+}
+.terminal:hover { opacity: 1; }
+
+.bookmarksPanel {
+    box-shadow: $shadow-default;
+    width: fit-content;
+    height: fit-content;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+}
+
+
+.bookmarkTab {
+    display: inline-box;
+    .bookmarkList {
+        display: flex;
+    }
+    h2 {
+        transition: $transition;
+        color: $subdued;
+        opacity: 1;
+        font-size:small;
+    }
+    padding-bottom:0.25rem;
+    padding-top:0.25rem;
+}
+.bookmarkTab:hover {
+    h2 { color: $color-sub; }
+}
+
+
+.bookmark * {
+    display: flex;
+}
+
+$bookmarkheight: 1.8rem;
+.bookmark * { transition: $transition; }
+.bookmark {
+    box-shadow: $shadow-default;
+    background-color: $bg3;
+    border-radius: 0.25rem;
+    display: flex;
+    height: $bookmarkheight;
+    width: fit-content;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    .line {
+        width: 0.15rem;
+        height: 100%;
+        background-color: $color-main;
+    };
+    a {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        height: 100%;
+        line-height: 100%;
+        padding-top: calc(($bookmarkheight - 1rem) / 2);
+        padding-bottom: calc(($bookmarkheight - 1rem) / 2);
+        width: fit-content;
+        text-align: left;
+        text-decoration: none;
+        color: $text;
+        font-weight: bold;
+        bottom: 0px;
+    };
+}
+.bookmark:hover {
+    a { color: $color-sub; }
+    .line { background-color: $color-sub; }
+}
+
+h1,h2,h3 {
+    text-transform: uppercase;
+}
+
+a {
+    text-transform: lowercase;
+}
+
+
+$color-user: $color-sub;
+$color-at: $color-mid;
+$color-host: $color-main;
+$displayHeight: 2rem;
+.terminal-display {
+    box-shadow: 0px -0.25rem 0.25rem rgba(0,0,0,0.1);
+    font-family: inherit;
+    background-color: $bg3;
+    display: flex;
+    height:$displayHeight;
+    width: 100%;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    line-height: 100%;
+    .spacer { width: 0.75rem; height: $displayHeight; opacity: 0; };
+    .content {
+        box-shadow: 0.375rem 0px 0px rgba(0,0,0,0.075);
+        height: $displayHeight;
+        line-height: 100%;
+        background-color: $bg4;
+        display: flex;
+        width: fit-content;
+        border-bottom-left-radius: 0.5rem;
+        border-top-right-radius: 0.5rem;
+        border-bottom-right-radius: 0.5rem;
+        .user { color: $color-user; };
+        .at { color: $color-at; };
+        .host { color: $color-host; };
+        .user, .at, .host {
+            padding-top: calc(($displayHeight - 1rem) / 2 - 0.1rem);
+            height: 1rem;
+            width: fit-content;
+            text-align: left;
+            font-weight: bold;
+        };
+    };
+    input {
+        color: $text;
+        background-color: rgba(0,0,0,0);
+        outline: none;
+        height:$displayHeight;
+        line-height: 100%;
+        width: fit-content;
+    };
+};
