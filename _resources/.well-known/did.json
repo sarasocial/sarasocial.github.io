@@ -13,7 +13,7 @@
             "id": "did:web:sarasoci.al#atproto",
             "type": "Multikey",
             "controller": "did:web:sarasoci.al",
-            "publicKeyMultibase": "zDnaeybyudjTz8L6DynMhjxDSZpQdauj65AW4xGN1296hV2q3"
+            "publicKeyMultibase": "zQ3shhFnNqjnHQK5e8s5YZNidxJnt4ncukH369saki3AHwNSt"
         }
     ],
     "service": [
