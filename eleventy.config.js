@@ -54,6 +54,7 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"./CNAME": "./CNAME"});
     eleventyConfig.addPassthroughCopy({"./_resources/assets": "./_assets"});
     eleventyConfig.addPassthroughCopy({"./_resources/javascript": "./_javascript"});
+    eleventyConfig.addPassthroughCopy({"./_resources/.well-known": "./.well-known"});
 
     eleventyConfig.addWatchTarget("./_resources/**/*.(png|jpg|ico|svg|css|scss|html|njk|md|json|js|cjs|txt|webmanifest|scss)", {
         resetConfig: true
