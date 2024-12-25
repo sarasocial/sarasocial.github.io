@@ -16,16 +16,14 @@ permalink: "/"
 
 ## what is this?
 
-my website! she's nothing special and a work in progress, but she gets the job done and i like her. i made her myself in [eleventy](https://11ty.dev). there isn't much to see, but if you're interested you can take a gander at the [repo](https://github.com/sarasocial/sarasocial.github.io) :)
-
-this page is very temporary btw. i'll be making it better when i can *(ps sorry the font and theming are kinda ugly right now)*
+my website! she's nothing special and a work in progress, but she gets the job done and i like her. i made her myself in [eleventy](https://11ty.dev). if you're interested you can take a gander at the [repo](https://github.com/sarasocial/sarasocial.github.io) :)
 
 ## why does this exist?
 
-my goal for this site is to build a [digital garden](https://maggieappleton.com/garden-history) that houses things that i create, and leads to things that i enjoy. there's neither content nor a content management system yet. but i'm working on it! [(🌱 update!)](/botany-idea/)
+my goal for this site is to build a [digital garden](https://maggieappleton.com/garden-history) that houses things that i create, and leads to things that i enjoy. there's neither content nor a content management system yet, but i'm working on it! [(🌱 update)](/botany-idea/)
 
 ## where else are you?
 
-~~right now you can find me on...~~ THEY'RE IN THE FOOTER NOW!!!! i made a footer, my links are there :)
+a few places, check the footer!
 
-i'll add more links over time. need to set up a pds for bsky and also get a matrix lol
+i'll be on bsky again pretty soon, my [pds](https://pds.sarasoci.al) is fully operational now and i have a fancy new *did:web* :)

@@ -1,6 +1,6 @@
 @use '../themes/main-theme';
-@use '../components/font-faces/RobotoMono';
-$font-body: 'Roboto Mono';
+@use '../components/font-faces/SourceCodePro';
+$font-body: 'Source Code Pro';
 
 html * {
     font-family: $font-body;
