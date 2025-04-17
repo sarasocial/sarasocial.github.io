@@ -13,8 +13,6 @@ git clone https://github.com/sarasocial/sarasocial.github.io sara-website
 cd sara-website && npm install
 ```
 
-if you want to build off of it and put it on github pages, first see license below fork the repo and 
-
 ### usage
 
 ```
@@ -24,6 +22,8 @@ npm run build
 # to serve:
 npm run serve
 ```
+
+note: i have not bothered to fix npm run serve because i am lazy!!!!
 
 ## changelog
 
