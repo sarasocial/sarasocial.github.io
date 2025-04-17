@@ -15,7 +15,7 @@ export default function(eleventyConfig) {
 		// Accepts an Array of file paths or globs (passed to `chokidar.watch`).
 		// Works great with a separate bundler writing files to your output folder.
 		// e.g. `watch: ["_site/**/*.css"]`
-		watch: ["./_resources/assets/", "./_resources/scss/", "./_resources/css", "./_resources/javascript"],
+		watch: ["./assets/", "./code/", "./data/", "./content/"],
 
 		// Show local network IP addresses for device testing
 		showAllHosts: false,
@@ -40,23 +40,29 @@ export default function(eleventyConfig) {
 	eleventyConfig.setBrowserSyncConfig({
 		files: './_dist/_css/**/*.css'
 	});
-
-    eleventyConfig.setTemplateFormats("html,liquid,njk,md,11ty.js");
+	eleventyConfig.setTemplateFormats([
+		"html",
+		"liquid",
+		"njk",
+		"md",
+		"11ty.js"
+	]);	  
     eleventyConfig.setLayoutResolution(true);
 
-    eleventyConfig.setInputDirectory("_site");
+    eleventyConfig.setInputDirectory(".internal/.temp/11ty");
     eleventyConfig.setOutputDirectory("_dist");
+
+    eleventyConfig.addPassthroughCopy({"./assets": "./_assets"});
+
+    eleventyConfig.addPassthroughCopy({"./code/javascript": "./_javascript"});
+    eleventyConfig.addPassthroughCopy({"./.internal/.temp/css": "./_css"});
+	eleventyConfig.addPassthroughCopy({"./.internal/.static": "./"});
 
     eleventyConfig.setDataDirectory("_data");
     eleventyConfig.setIncludesDirectory("_includes");
     eleventyConfig.setLayoutsDirectory("_includes/layouts");
 
-    eleventyConfig.addPassthroughCopy({"./CNAME": "./CNAME"});
-    eleventyConfig.addPassthroughCopy({"./_resources/assets": "./_assets"});
-    eleventyConfig.addPassthroughCopy({"./_resources/javascript": "./_javascript"});
-    eleventyConfig.addPassthroughCopy({"./_resources/.well-known": "./.well-known"});
-
-    eleventyConfig.addWatchTarget("./_resources/**/*.(png|jpg|ico|svg|css|scss|html|njk|md|json|js|cjs|txt|webmanifest|scss)", {
+    eleventyConfig.addWatchTarget("./assets/**/*.{png,jpg,ico,svg,css,scss,html,njk,md,json,js,cjs,txt,webmanifest}", {
         resetConfig: true
     });
 };

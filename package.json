@@ -4,13 +4,9 @@
   "description": "sara website",
   "main": "index.js",
   "scripts": {
-    "prebuild": "rm -rf _dist && rm -rf '_resources/css'",
-    "build:cunt": "npx eleventy --input=_site --output=_dist",
-    "serve:cunt": "npx eleventy --serve --input=_site --output=_dist",
-    "build:sass": "npx sass _resources/scss:_dist/_css",
-    "serve:sass": "npx sass _resources/scss:_dist/_css --watch",
-    "build": "npm run prebuild && npm-run-all build:*",
-    "serve": "npm run prebuild && npm-run-all build:sass --parallel serve:*"
+    "compile": "node .internal/scripts/compile.js",
+    "build": "node .internal/scripts/build.js",
+    "serve": "node .internal/scripts/serve.js"
   },
   "keywords": [],
   "author": "",
@@ -27,6 +23,7 @@
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@catppuccin/palette": "^1.7.1",
+    "fs-extra": "^11.3.0",
     "npm-run-all": "^4.1.5",
     "sass": "^1.83.0"
   }
