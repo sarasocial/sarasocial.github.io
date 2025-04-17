@@ -59,7 +59,7 @@ export default function(eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy({"./code/javascript": "./_javascript"});
     eleventyConfig.addPassthroughCopy({"./.internal/.temp/css": "./_css"});
-	eleventyConfig.addPassthroughCopy({"./.internal/.static": "./"});
+	eleventyConfig.addPassthroughCopy({"./.static": "./"});
 
     eleventyConfig.setDataDirectory("_data");
     eleventyConfig.setIncludesDirectory("_includes");
