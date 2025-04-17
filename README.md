@@ -10,9 +10,7 @@ if you want to run this site on your local machine and play around with it, do:
 
 ```
 git clone https://github.com/sarasocial/sarasocial.github.io sara-website
-cd sara-website
-npm init -y && npm pkg set type="module"
-npm i @11ty/eleventy sass npm-run-all --save-dev
+cd sara-website && npm install
 ```
 
 if you want to build off of it and put it on github pages, first see license below fork the repo and 
@@ -28,6 +26,10 @@ npm run serve
 ```
 
 ## changelog
+
+**v0.06 (17 apr. '25)**: moved from gh-pages to netlify :3
+
+**v0.05 (16 apr. '25)**: structural overhaul (what the fuck was i doing ????)
 
 **v0.04 (21 dec. '24)**: added   sass 💅  & add ed [changelog](/Updates.md)
 
