@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>on botany | sara&#39;s place</title>
+
+        <meta name="description" content="made by sara, with love"/>
+
+        <link rel="stylesheet" href="/_css/styles/main.css">
+
+        <link rel="icon" type="image/png" href="/_assets/favicons/default/favicon-96x96.png" sizes="96x96"/>
+        <link rel="icon" type="image/svg+xml" href="/_assets/favicons/default/favicon.svg"/>
+        <link rel="shortcut icon" href="/_assets/favicons/default/favicon.ico"/>
+        <link rel="apple-touch-icon" sizes="180x180" href="/_assets/favicons/default/apple-touch-icon.png"/>
+        <link rel="manifest" href="/_assets/favicons/default/site.webmanifest"/>
+    </head>
+    <body>
+        <div class="main">
+            <h1>🌱 thoughts on botany &amp; managing digital gardens</h1>
+            
+    <hr>
+<h3>there's a lot of ways to cook eggs</h3>
+<p>one thought that i've been toying with over the past few days is how one tends to a digital garden, and furthermore, how <em>i</em> want to tend to my own digital garden. i'm into the idea of creating an eleventy plugin to help accomplish this, and <em>if</em> i were to do that, i'd want to release it publicly.</p>
+<p><strong>this thought has been a big can of worms!</strong></p>
+<p>if you've read any stuff on digital gardens <em>(for the 1000th time, <a href="https://maggieappleton.com/garden-history">this piece</a> is a great start)</em>, you'd probably know that the designs people come up with are varied and range in complexity. there wrongs ways, but no <em>right</em> ways, to build a digital garden. that's part of their beauty. a tool designed to help people build their own should account for this sort of design variance, and not just what i <em>personally</em> want for my own.</p>
+<p>while i've seen digital gardens approach pathing more traditionally, the main commonality between designs is <strong>hyperlinks</strong>. many people <em>(including me!)</em> see the weaving of hyperlink paths as an integral part of <strong>what makes a garden a garden</strong>.</p>
+<blockquote>
+<p>you plant ideas, and these ideas live, grow, change, and die. new ideas are birthed from old ones. thought from thought, life from life. the garden itself is ever-changing--and naturally, so are the paths upon which one traverses it.</p>
+</blockquote>
+<p>this is how i interpreted digital gardens when i first learned about them, and it's what made me fall in love with them.</p>
+<hr>
+<h3>so much reading</h3>
+<p>i've been doing more reading now that i'm finally building one. i've been checking out <a href="https://github.com/jackyzha0/quartz">quartz</a> which led me down a rabbit hole of readings. <a href="https://hapgood.us/2015/10/17/the-garden-and-the-stream-a-technopastoral/">this article</a> is fascinating. among other things, it led me to the <a href="https://en.wikipedia.org/wiki/The_Garden_of_Forking_Paths">garden of forking paths</a> <em>(text <a href="https://archive.org/stream/TheGardenOfForkingPathsJorgeLuisBorges1941/The-Garden-of-Forking-Paths-Jorge-Luis-Borges-1941_djvu.txt">here</a>!)</em>, which in turn reminded me of <a href="https://en.wikipedia.org/wiki/Hypertext_fiction">hypertext literature</a> and led me to read up a bit on its history. there are lots of fun little articles about it--a couple i enjoyed are <a href="https://berkeleyfictionreview.org/2021/08/02/hypertext-fiction-the-literary-genre-that-was-theorized-before-it-was-written/">here</a> and <a href="https://writingcooperative.com/hypertext-fiction-the-past-and-future-of-the-internets-own-tales-c8173322cae4">here</a>.</p>
+<p>everything is so interesting and there's much more to it than i thought when i first stumbled across these types of projects. i <em>love</em> thinking about this stuff.</p>
+<p><strong>but! there was a point to be made here,</strong></p>
+<p>this section isn't meant to just be me dropping a reading list. i'm fully, wholly convinced that these winding, often-changing hypertext paths are <strong>the defining characteristic</strong> of what makes a digital garden. and that's given me some direction as i start planning out a mini development project.</p>
+<hr>
+<h3>botany is a cute word!</h3>
+<p>and gardens themselves are like botany, applied.</p>
+<p>with a bit of newfound direction for where i want to take this project-within-a-project, i created something a couple hours ago:</p>
+<blockquote>
+<p><a href="https://github.com/sarasocial/botanty">🌱 botanty!</a></p>
+</blockquote>
+<blockquote>
+<p><strong>i'm sorry. i know the wordplay sucks. it's so awful that i love it.</strong></p>
+</blockquote>
+<p>okay that's anticlimactic. at least right now, as i'm typing this, it is <em>embarrasingly</em> empty. again, though, it's a nice start :)</p>
+<p>for now, botanty <em>(fucking kill me if i leave this title lmao)</em> would simply be a hyperlink manager. other features (if any) could come later--i don't need quartz-level dynamic site graphs lol. the early-stage idea i have is:</p>
+<ol>
+<li>its purpose would be to, using some set of global rules and individual front matter, run term recognition and automatically insert hyperlinks into text</li>
+</ol>
+<blockquote>
+<p>so if you have a page on burnout, and you've assigned the phrase &quot;burnout&quot; to it, and on another page you write &quot;i've been struggling with <strong>burnout</strong> again lately&quot;, botanty would catch that and insert the corresponding term-based link</p>
+</blockquote>
+<ol start="2">
+<li>global rules would be fully customizable, and front matter could be used to override global rules</li>
+</ol>
+<blockquote>
+<p>a folder marked &quot;tag me!&quot; could contain an article that says &quot;wait, but not me!&quot; and botanty would respect the individual</p>
+</blockquote>
+<ol start="3">
+<li>it would probably run two sweeps: one sweep to grab front matter rules, then a second sweep to implement those paths into text before eleventy builds page files</li>
+</ol>
+<p>and... that's about all i have for now! i'm brainstorming how these rules will work and i do have notes, but certainly nothing even close to final.</p>
+<p>i'll probably take a crack at this over the weekend. before that, i need to do pds stuff and get my new fancy bsky account all set up. that's exciting, too :)</p>
+<hr>
+<blockquote>
+<p>first written: 12.20.24</p>
+</blockquote>
+<blockquote>
+<p>latest update: 12.20.24</p>
+</blockquote>
+<p><em>i am adding these dates manually!! i haven't added that part yet! and obvs i know i don't have to but it's funny to me. documenting this silly project is so much fun :))</em></p>
+
+
+        </div>
+        <footer>
+    <hr>
+    <div class = "footer-buttons">
+        
+            
+                <a href = https://archlinux.org target = "_blank">
+            
+            
+                <img src="/_assets/88x31/archlinux.gif" width="88" height="31" alt="archlinux.">
+            
+            </a>
+        
+            
+                <a href = https://11ty.dev target = "_blank">
+            
+            
+                <img src="/_assets/88x31/11ty.png" width="88" height="31" alt="made with love and eleventy.">
+            
+            </a>
+        
+            
+                <a href = https://yesterweb.org/no-to-web3/ target = "_blank">
+            
+            
+                <img src="/_assets/88x31/saynotoweb3.gif" width="88" height="31" alt="say no to web3, keep the web free.">
+            
+            </a>
+        
+            
+                <a href = https://acabexplained.carrd.co/ target = "_blank">
+            
+            
+                <img src="/_assets/88x31/acab.gif" width="88" height="31" alt="flashing letters &#39;ACAB&#39;. all cops are bastards.">
+            
+            </a>
+        
+            
+                <a href = https://diyhrt.info target = "_blank">
+            
+            
+                <img src="/_assets/88x31/estrogen.gif" width="88" height="31" alt="an estrogen bottle spins in circles, captioned &#39;powered by estrogen.&#39;">
+            
+            </a>
+        
+    </div>
+    <div class="footer-socials">
+        
+            
+                
+                    <a href=/>website</a>
+                
+            
+        
+            
+                
+                    <a href=https://github.com/sarasocial target="_blank">github</a>
+                
+            
+        
+            
+                
+                    <a href=https://bsky.app/profile/sarasoci.al target="_blank">bsky</a>
+                
+            
+        
+            
+                
+                    <a href=https://hexbear.net/u/sara target="_blank">hexbear</a>
+                
+            
+        
+    </div>
+</footer>
+    </body>
+</html>
