@@ -3,3 +3,4 @@ node_modules
 
 # 11ty output
 _dist
+.internal/.temp

@@ -36,7 +36,10 @@ export default function(eleventyConfig) {
 		// for on-request processing
 		onRequest: {},
 	});
-	
+
+	// Opt out of merging .gitignore into .eleventyignore
+	eleventyConfig.setUseGitIgnore(false);
+
 	eleventyConfig.setBrowserSyncConfig({
 		files: './_dist/_css/**/*.css'
 	});
