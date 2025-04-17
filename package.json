@@ -4,6 +4,7 @@
   "description": "sara website",
   "main": "index.js",
   "scripts": {
+    "clean": "rm -rf _dist && rm -rf .internal/.temp",
     "compile": "node .internal/scripts/compile.js",
     "build": "node .internal/scripts/build.js",
     "serve": "node .internal/scripts/serve.js"
