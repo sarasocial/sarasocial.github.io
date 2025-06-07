@@ -24,7 +24,7 @@ my goal for this site is to build a [digital garden](https://maggieappleton.com/
 
 i've also been working on some [dotfiles](https://github.com/sarasocial/dotfiles) which you can *(in the future, in theory)* install by running the following command:
 
-`curl -L sarasoci.al/dots.sh`
+`curl -L sarasoci.al/dots.sh | bash`
 
 the repo is pretty much empty right now (i'm not even storing my shit there yet lol), but hopefully that'll change soon--and once it does, i'll probably set up some dedicated pages for them here.
 
