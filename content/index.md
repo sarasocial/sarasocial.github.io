@@ -31,6 +31,8 @@ the repo is pretty much empty right now (i'm not even storing my shit there yet 
 
 ## where else are you?
 
-here and there! my links are in the footer :)
+here and there--my links are in the footer!
 
-i'm primarily on [bsky](https://bsky.app/profile/did:web:sarasoci.al). if you wanna reach out, @ing me there is the best way to do it. my account is stored on a [pds](https://pds.sarasoci.al) currently hosted on a [digitalocean](https://www.digitalocean.com/) droplet for like $5/mo, highly recommend if you're interested in starting your own!
+i'm primarily on [bsky](https://bsky.app/profile/did:web:sarasoci.al). if you wanna reach out, @ing me there is the best way to do it :)
+
+my bsky account is stored on a [pds](https://pds.sarasoci.al) currently hosted on a [digitalocean](https://www.digitalocean.com/) droplet for like $5/mo. would recommend this route if you're interested in starting your own!
