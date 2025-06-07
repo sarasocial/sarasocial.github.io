@@ -27,6 +27,8 @@ note: i have not bothered to fix npm run serve because i am lazy!!!!
 
 ## changelog
 
+**v0.06 (06 june '25)**: culled some bad pages, updated index.md now that i'm back on bsky
+
 **v0.06 (17 apr. '25)**: moved from gh-pages to netlify :3
 
 **v0.05 (16 apr. '25)**: structural overhaul (what the fuck was i doing ????)
