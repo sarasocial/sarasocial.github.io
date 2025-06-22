@@ -6,9 +6,9 @@
     ],
     "id": "did:web:sarasoci.al",
     "alsoKnownAs": [
+        "at://sarasoci.al",
         "at://fedpost.ing",
-        "at://boob.expert",
-        "at://sarasoci.al"
+        "at://boob.expert"
     ],
     "verificationMethod": [
         {
